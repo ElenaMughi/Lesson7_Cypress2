@@ -1,0 +1,16 @@
+{
+  "name": "lesson7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "correctSiteVeiw.js",
+  "scripts": {
+    "test": "cypress run --record --key eec90106-4ead-43fe-aa78-1179e357a5ab",
+    "cy-run": "cypress run",
+    "cy-open": "cypress open"
+  },
+  "author": "Vasilyuk E.N.",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.3.0"
+  }
+}
