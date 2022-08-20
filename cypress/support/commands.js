@@ -9,6 +9,11 @@
 // ***********************************************
 //
 //
+Cypress.Commands.add("loginIn", (login, password) => {
+  cy.get("[for='email'] > .login__input").type(login);
+  cy.get("[for='pwd'] > .login__input").type(password);
+  cy.get(".login__button").click();
+});
 
 // Cypress.Commands.add('login', (email, password) => { ... })
 //

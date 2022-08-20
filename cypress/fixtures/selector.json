@@ -1,0 +1,39 @@
+[
+  {
+    "loginButton": ".login__button"
+  },
+  {
+    "login": "[for='email'] > .login__input"
+  },
+  {
+    "pass": "[for='pwd'] > .login__input"
+  },
+  {
+    "title": ".page-header__title"
+  },
+  {
+    "week":".page-nav__day-week"
+  },
+  {
+    "day": ".page-nav__day-number"
+  },
+  {
+    "allday": ".page-nav__day"
+  },
+  {
+    "today": ".page-nav__day_today"
+  },
+  {
+    "logan1": ":nth-child(2) > .movie__info > .movie__description > .movie__title"
+  },
+  {
+    "logan2": ":nth-child(2) > .movie__info > .movie__description > .movie__synopsis"
+  },
+  {
+    "film31": ":nth-child(3) > .movie__info > .movie__description > .movie__title"
+  },
+  {
+    "film32": ":nth-child(3) > .movie__info > .movie__description > .movie__synopsis"
+  }
+  
+]
