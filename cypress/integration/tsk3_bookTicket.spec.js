@@ -11,16 +11,17 @@ describe("BookTicket", () => {
       cy.get(selector[0].loginButton).click();
     });
 
+    // const dataTransfer = new Image();
     const dataTransfer = new DataTransfer();
-    cy.get("[data-film-id='93'] > img").trigger("dragstart", { dataTransfer });
-    cy.get("[data-hall-id='2091'] > div").trigger("drop", { dataTransfer });
-    cy.get('[data-film-id="93"] > img').trigger("dragend");
+    // dataTransfer.url = "../img/posters/93.png";
 
-    cy.get('#start-sales > .text-center > .conf-step__button').click();
+    cy.get("[draggable='true'][data-film-id='93']").trigger("dragstart", {dataTransfer});
+    cy.get("div [data-hall-id='2091'] > div").trigger("drop", { dataTransfer });
+    cy.get("[draggable='true'][data-film-id='93']").trigger("dragend");
+
+    cy.get("#start-sales > .text-center > .conf-step__button").click();
 
     cy.visit("http://qamid.tmweb.ru");
-    cy.contains('Alphahall').should("be.visible");
-
+    cy.contains("Alphahall").should("be.visible");
   });
-
 });

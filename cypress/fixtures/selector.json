@@ -24,16 +24,16 @@
     "today": ".page-nav__day_today"
   },
   {
-    "logan1": ":nth-child(2) > .movie__info > .movie__description > .movie__title"
+    "logan1": ":nth-child(1) > .movie__info > .movie__description > .movie__title"
   },
   {
-    "logan2": ":nth-child(2) > .movie__info > .movie__description > .movie__synopsis"
+    "logan2": ":nth-child(1) > .movie__info > .movie__description > .movie__synopsis"
   },
   {
-    "film31": ":nth-child(3) > .movie__info > .movie__description > .movie__title"
+    "film31": ":nth-child(2) > .movie__info > .movie__description > .movie__title"
   },
   {
-    "film32": ":nth-child(3) > .movie__info > .movie__description > .movie__synopsis"
+    "film32": ":nth-child(2) > .movie__info > .movie__description > .movie__synopsis"
   }
   
 ]
